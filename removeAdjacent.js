@@ -1,4 +1,4 @@
-function rmvAjdc(s) {
+function stringReducer(s) {
     let sLength = s.length
     let n = 1
     do {
@@ -43,4 +43,4 @@ function rmvAjdc(s) {
   //str = 'baab'
   //str = 'aa'
   str = 'zzaabpsskmm'
-  console.log(rmvAjdc(str))
+  console.log(stringReducer(str))
